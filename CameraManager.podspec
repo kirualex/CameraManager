@@ -9,5 +9,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/imaginary-cloud/CameraManager.git", :tag => "3.0.0" }
   s.social_media_url = 'http://www.imaginarycloud.com/'
   s.platform         = :ios, '8.0'
+  s.swift_version    = '4.2'
   s.source_files     = 'camera/CameraManager.swift'
 end
